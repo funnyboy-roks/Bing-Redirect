@@ -1,0 +1,21 @@
+{
+    "name": "Bing Redirect - Prank",
+    "version": "1.2",
+    "description": "This is an extension based around pranking your friends.  You can escape it by typing '\\g' at the end of your search.",
+    "manifest_version": 2,
+    "content_scripts": [
+        {
+            "matches": [
+                "https://www.google.com/search?*"
+            ],
+            "js": [
+                "content.js"
+            ]
+        }
+    ],
+    "icons": {
+        "16": "logo-16.png",
+        "48": "logo-48.png",
+        "128": "logo-128.png"
+    }
+}
